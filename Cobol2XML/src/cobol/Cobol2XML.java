@@ -63,6 +63,7 @@ public class Cobol2XML {
 		 */
 
         try {
+        	System.out.println("arg[0]" + args[0]);
             MyLogger.setup();
         } catch (IOException e) {
             e.printStackTrace();
